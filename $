@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Author: Ben Mezger (seds)
+# Github: github.com/benmezger/dollar
+
+if [ "$0" = "$" ]; then
+	exec "${@:1}"
+else
+	exec "$@"
+fi
