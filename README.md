@@ -9,6 +9,8 @@ copy-paste-and-execute without having to worry on removing the dollar sign.
 
 Copy `$` to somewhere your `PATH` can find, for example: `/usr/local/bin/`.
 
+Or run `make install` for installing to `/usr/local/bin`
+
 ## Usage
 
 Copy a command from the internet (be careful!) and paste to your command-line
